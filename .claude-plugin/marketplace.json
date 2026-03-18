@@ -1,0 +1,17 @@
+{
+  "name": "torus-skills",
+  "owner": {
+    "name": "TORUS",
+    "email": ""
+  },
+  "plugins": [
+    {
+      "name": "torus-skills",
+      "source": ".",
+      "description": "TORUS のカスタムスキルコレクション（pptx等）",
+      "version": "1.0.0",
+      "license": "MIT",
+      "keywords": ["pptx", "powerpoint", "presentation", "consulting"]
+    }
+  ]
+}

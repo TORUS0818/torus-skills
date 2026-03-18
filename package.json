@@ -1,0 +1,27 @@
+{
+  "name": "torus-pptx-skill",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "directories": {
+    "doc": "docs"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/TORUS0818/torus-pptx-skill.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "bugs": {
+    "url": "https://github.com/TORUS0818/torus-pptx-skill/issues"
+  },
+  "homepage": "https://github.com/TORUS0818/torus-pptx-skill#readme",
+  "dependencies": {
+    "pptxgenjs": "^4.0.1"
+  }
+}
