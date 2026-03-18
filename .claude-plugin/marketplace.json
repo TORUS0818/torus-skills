@@ -10,9 +10,12 @@
   "plugins": [
     {
       "name": "torus-pptx",
-      "source": "./plugins/torus-pptx",
       "description": "コンサルティングファーム風の高品質なPowerPointプレゼンテーション自動作成",
-      "version": "1.0.0"
+      "source": "./",
+      "strict": false,
+      "skills": [
+        "./skills/pptx"
+      ]
     }
   ]
 }
