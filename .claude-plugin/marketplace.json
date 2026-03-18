@@ -1,17 +1,21 @@
 {
   "name": "torus-skills",
   "owner": {
-    "name": "TORUS",
-    "email": ""
+    "name": "TORUS"
+  },
+  "metadata": {
+    "description": "TORUS custom skills collection",
+    "version": "1.0.0"
   },
   "plugins": [
     {
       "name": "torus-skills",
-      "source": ".",
-      "description": "TORUS のカスタムスキルコレクション（pptx等）",
-      "version": "1.0.0",
-      "license": "MIT",
-      "keywords": ["pptx", "powerpoint", "presentation", "consulting"]
+      "description": "コンサルティングファーム風の高品質なPowerPointプレゼンテーション自動作成など",
+      "source": "./",
+      "strict": false,
+      "skills": [
+        "./skills/pptx"
+      ]
     }
   ]
 }
