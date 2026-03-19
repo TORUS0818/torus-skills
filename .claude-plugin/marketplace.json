@@ -14,7 +14,8 @@
       "source": "./",
       "skills": [
         "./skills/pptx"
-      ]
+      ],
+      "hooks": "./hooks/hooks.json"
     }
   ]
 }
