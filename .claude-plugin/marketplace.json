@@ -10,25 +10,8 @@
   "plugins": [
     {
       "name": "torus-pptx",
-      "description": "コンサルティングファーム風の高品質なPowerPointプレゼンテーション自動作成",
       "source": "./",
-      "skills": [
-        "./skills/pptx"
-      ],
-      "hooks": {
-        "SessionStart": [
-          {
-            "matcher": "startup",
-            "hooks": [
-              {
-                "type": "command",
-                "command": "${CLAUDE_PLUGIN_ROOT}/scripts/setup.sh",
-                "timeout": 300
-              }
-            ]
-          }
-        ]
-      }
+      "description": "コンサルティングファーム風の高品質なPowerPointプレゼンテーション自動作成"
     }
   ]
 }

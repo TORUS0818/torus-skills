@@ -1,0 +1,10 @@
+{
+  "name": "torus-pptx",
+  "version": "1.0.0",
+  "description": "コンサルティングファーム風の高品質なPowerPointプレゼンテーション自動作成",
+  "author": {
+    "name": "TORUS"
+  },
+  "skills": ["./skills/pptx"],
+  "hooks": "./hooks/hooks.json"
+}
