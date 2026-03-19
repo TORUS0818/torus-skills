@@ -5,6 +5,5 @@
   "author": {
     "name": "TORUS"
   },
-  "skills": ["./skills/pptx"],
-  "hooks": "./hooks/hooks.json"
+  "skills": ["./skills/pptx"]
 }

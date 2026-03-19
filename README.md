@@ -25,15 +25,10 @@ Claude Code 用のカスタムスキルコレクション。
 
 ### 依存関係のセットアップ
 
-セッション開始時に hook が自動実行され、依存関係がインストールされます（初回のみ）。
-
-- **Node.js** (pptxgenjs) — 自動インストール
-- **Python** (markitdown) — `uv` がインストール済みであれば自動インストール
-
-手動でセットアップする場合：
+プラグインインストール後、作業ディレクトリで以下を実行：
 
 ```bash
-npm install pptxgenjs        # 新規作成用
+npm install pptxgenjs        # 新規作成用（必須）
 uv add "markitdown[pptx]"    # Content QA用（任意）
 ```
 
