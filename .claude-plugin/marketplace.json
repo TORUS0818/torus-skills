@@ -12,7 +12,6 @@
       "name": "torus-pptx",
       "description": "コンサルティングファーム風の高品質なPowerPointプレゼンテーション自動作成",
       "source": "./",
-      "strict": false,
       "skills": [
         "./skills/pptx"
       ]
