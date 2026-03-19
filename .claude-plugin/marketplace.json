@@ -15,7 +15,20 @@
       "skills": [
         "./skills/pptx"
       ],
-      "hooks": "./hooks/hooks.json"
+      "hooks": {
+        "SessionStart": [
+          {
+            "matcher": "startup",
+            "hooks": [
+              {
+                "type": "command",
+                "command": "${CLAUDE_PLUGIN_ROOT}/scripts/setup.sh",
+                "timeout": 300
+              }
+            ]
+          }
+        ]
+      }
     }
   ]
 }
